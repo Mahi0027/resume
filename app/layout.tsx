@@ -5,7 +5,7 @@ import { Quicksand } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import mahipalProfile from "@/public/profile/Mahipal.jpg";
+import mahipalProfile from "@/public/profile/mahipal.jpg";
 import moon from "@/public/icons/moon-solid.svg";
 import sun from "@/public/icons/sun-solid.svg";
 import bar from "@/public/icons/bars-solid.svg";

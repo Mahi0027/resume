@@ -150,7 +150,7 @@ export default function RootLayout({
             <body>
                 <div className="flex justify-center h-full z-50">
                     <div
-                        className={`w-0 sm:w-[10%] bg-gradient-to-tl ${
+                        className={`w-0 sm:w-[10%] lg:w-[15%] xl:w-[20%] bg-gradient-to-tl ${
                             theme === "light"
                                 ? "from-light-background-gradient-from to-light-background-gradient-to"
                                 : "from-dark-background-gradient-from to-dark-background-gradient-to"
@@ -158,7 +158,7 @@ export default function RootLayout({
                     ></div>
 
                     <div
-                        className={`w-full sm:w-[80%] border-x border-spacing-0.5 bg-gradient-to-tl  ${
+                        className={`w-full sm:w-[80%] lg:w-[70%] xl:w-[60%] border-x border-spacing-0.5 bg-gradient-to-tl  ${
                             theme === "light"
                                 ? "text-light-text border-light-border from-light-option-gradient-from to-light-option-gradient-to"
                                 : "text-dark-text border-dark-border from-dark-options-gradient-from to-dark-options-gradient-to"
@@ -310,7 +310,7 @@ export default function RootLayout({
                     </div>
 
                     <div
-                        className={`w-0 sm:w-[10%] bg-gradient-to-tl ${
+                        className={`w-0 sm:w-[10%] lg:w-[15%] xl:w-[20%] bg-gradient-to-tl ${
                             theme === "light"
                                 ? "from-light-background-gradient-from to-light-background-gradient-to"
                                 : "from-dark-background-gradient-from to-dark-background-gradient-to"

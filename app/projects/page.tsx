@@ -25,7 +25,7 @@ const Projects = () => {
                     550 that I taught myself to type on.
                 </p>
             </div>
-            <div className="flex flex-wrap justify-center">
+            <div className="flex flex-wrap justify-center mb-24">
                 <Link
                     href={"https://github.com/Mahi0027"}
                     className={`w-full sm:w-1/2 md:w-1/3 lg:w-1/3 xl:w-1/4 border border-spacing-1 rounded-lg m-2 flex-col justify-start items-center p-2 group ${

@@ -2,32 +2,121 @@
 @tailwind components;
 @tailwind utilities;
 
+/* hide scrollbar */
+::-webkit-scrollbar{
+  display: none;
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+            to bottom,
+            transparent,
+            rgb(var(--background-end-rgb))
+        )
+        rgb(var(--background-start-rgb));
 }
 
+p {
+    margin-bottom: 2rem;
+}
+
+.initial-profile-div-size {
+    /* Set the initial size to be larger */
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    /* transition: all; */
+    margin-top: 30rem;
+    transition: width 2s ease-in-out, height 2s ease-in-out;
+}
+
+.after-profile-div-size {
+    border-width: 1px;
+    border-spacing: var(0.125rem) var(0.125rem);
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+        0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.initial-profile-size {
+    /* Set the initial size to be larger */
+    width: 20rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    transition: width 0.5s ease-in-out, height 1s ease-in-out;
+    --tw-rotate: 6deg;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after-profile-size {
+    /* Set the initial size to be larger */
+    width: 4rem;
+    height: 4rem;
+    min-width: 4rem;
+    min-height: 4rem;
+    border-radius: 9999px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+
+.transform-effect {
+    transition: transform 0.5s ease-in-out;
+}
+
+.transform-effect:hover {
+    transform: rotate(180deg);
+}
+
+.slide-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        20deg,
+        rgb(163, 205, 205, 1),
+        rgba(15, 191, 200, 1),
+        rgb(163, 205, 205, 1)
+    );
+    transform-origin: left;
+    z-index: 9999;
+}
+
+.slide-out {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        20deg,
+        rgb(163, 205, 205, 1),
+        rgba(15, 191, 200, 1),
+        rgb(163, 205, 205, 1)
+    );
+    transform-origin: right;
+    z-index: 9999;
+}
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .text-balance {
+        text-wrap: balance;
+    }
 }

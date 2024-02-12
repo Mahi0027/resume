@@ -232,28 +232,46 @@ export default function RootLayout({
                             >
                                 <ul className="w-full flex flex-col sm:flex-row justify-around items-center gap-5 sm:gap-0">
                                     <li
-                                        className={`hover:text-hover hover:cursor-pointer`}
+                                        className={`hover:text-hover hover:cursor-pointer ${
+                                            pathname === "/" ? "text-hover" : ""
+                                        }`}
                                     >
                                         <Link href="/">Home</Link>
                                     </li>
                                     <li
-                                        className={`hover:text-hover hover:cursor-pointer`}
+                                        className={`hover:text-hover hover:cursor-pointer ${
+                                            pathname === "/about"
+                                                ? "text-hover"
+                                                : ""
+                                        }`}
                                     >
                                         <Link href="about">About</Link>
                                     </li>
                                     {/* education, experience,contacts */}
                                     <li
-                                        className={`hover:text-hover hover:cursor-pointer`}
+                                        className={`hover:text-hover hover:cursor-pointer ${
+                                            pathname === "/skills"
+                                                ? "text-hover"
+                                                : ""
+                                        }`}
                                     >
                                         <Link href="skills">Skills</Link>
                                     </li>
                                     <li
-                                        className={`hover:text-hover hover:cursor-pointer`}
+                                        className={`hover:text-hover hover:cursor-pointer ${
+                                            pathname === "/projects"
+                                                ? "text-hover"
+                                                : ""
+                                        }`}
                                     >
                                         <Link href="projects">Projects</Link>
                                     </li>
                                     <li
-                                        className={`hover:text-hover hover:cursor-pointer`}
+                                        className={`hover:text-hover hover:cursor-pointer ${
+                                            pathname === "/activities"
+                                                ? "text-hover"
+                                                : ""
+                                        }`}
                                     >
                                         <Link href="activities">
                                             Activities

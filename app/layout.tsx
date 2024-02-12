@@ -13,6 +13,7 @@ import Link from "next/link";
 import { primaryContext } from "@/src/context";
 import { usePathname } from "next/navigation";
 // import { useRouter } from "next/router";
+// import favIcon from "@/public/profile/mahipal.ico";
 
 const inter = Quicksand({ weight: "400", subsets: ["latin"] });
 
@@ -56,6 +57,8 @@ export default function RootLayout({
     }, []);
 
     useEffect(() => {
+        scrollToTop();
+
         if (pathname === "/") {
             showInitialProfile();
         } else {
@@ -90,6 +93,12 @@ export default function RootLayout({
         handleMenuDiv();
     }, [theme]);
 
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
     const handleMenuDiv = () => {
         if (window.innerWidth < 640) {
             document.getElementById("menuOption")?.classList.add("hidden");
@@ -141,11 +150,23 @@ export default function RootLayout({
     return (
         <html lang="en">
             <head>
-                <title>Mahipal&apos;s Resume</title>
+                <title>Mahipal Info</title>
                 <meta
                     name="description"
                     content="Experienced web developer with a passion for building responsive and user-friendly websites. This contain my resume details. Treat this as resume. View my portfolio and contact information."
                 />
+                <link
+                    rel="icon"
+                    type="image/x-icon"
+                    sizes="94x94"
+                    href="/public/profile/mahipal.ico"
+                />
+                {/* <link
+                    rel="icon"
+                    type="image/x-icon"
+                    sizes="188x188"
+                    href="/profile/mahipal.ico"
+                /> */}
             </head>
             <body>
                 <div className="flex justify-center h-full z-50">
@@ -170,7 +191,7 @@ export default function RootLayout({
                         >
                             <div
                                 id="profileChildContainer"
-                                className={`initial-profile-div-size flex justify-start items-center rounded-full p-1`}
+                                className={`initial-profile-div-size flex justify-center items-center rounded-full p-1`}
                             >
                                 <Image
                                     loading="lazy"

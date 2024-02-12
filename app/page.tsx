@@ -69,7 +69,7 @@ export default function Home() {
                     </ul>
                 </div>
                 <div className="flex flex-wrap mt-10 mb-24">
-                    <div className="w-full max-h-[36rem] mb-5 md:mb-0  md:w-1/2 px-4 overflow-y-auto">
+                    <div className="show-scrollbar w-full max-h-[36rem] mb-5 md:mb-0  md:w-1/2 px-4 overflow-y-auto scrollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full">
                         {articles.map(
                             ({
                                 id,

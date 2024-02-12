@@ -31,6 +31,30 @@ body {
         rgb(var(--background-start-rgb));
 }
 
+
+/* Custom scrollbar start */
+
+.show-scrollbar::-webkit-scrollbar {
+    display: block;
+}
+/* Set scrollbar width */
+.scrollbar-w-2::-webkit-scrollbar {
+  width: 6px; /* Width of vertical scrollbar */
+  height: 6px; /* Height of horizontal scrollbar */
+}
+
+/* Set scrollbar track color */
+.scrollbar-track-gray-200::-webkit-scrollbar-track {
+  background-color: #edf2f7;
+}
+
+/* Set scrollbar thumb color */
+.scrollbar-thumb-gray-500::-webkit-scrollbar-thumb {
+  background-color: #cbd5e0;
+  border-radius: 999px; /* Rounded thumb */
+}
+/* Custom scrollbar end */
+
 p {
     margin-bottom: 2rem;
 }
@@ -38,7 +62,7 @@ p {
 .initial-profile-div-size {
     /* Set the initial size to be larger */
     position: absolute;
-    width: 20rem;
+    width: 100%;
     height: 20rem;
     /* transition: all; */
     margin-top: 30rem;
@@ -57,12 +81,10 @@ p {
 }
 .initial-profile-size {
     /* Set the initial size to be larger */
-    width: 20rem;
+    width: 40rem;
     height: 20rem;
     border-radius: 0.5rem;
     transition: width 0.5s ease-in-out, height 1s ease-in-out;
-    --tw-rotate: 6deg;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .after-profile-size {
@@ -115,6 +137,7 @@ p {
     transform-origin: right;
     z-index: 9999;
 }
+
 @layer utilities {
     .text-balance {
         text-wrap: balance;

@@ -81,7 +81,7 @@ p {
 }
 .initial-profile-size {
     /* Set the initial size to be larger */
-    width: 40rem;
+    max-width: 40rem;
     height: 20rem;
     border-radius: 0.5rem;
     transition: width 0.5s ease-in-out, height 1s ease-in-out;

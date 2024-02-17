@@ -14,6 +14,12 @@ import { primaryContext } from "@/src/context";
 import { usePathname } from "next/navigation";
 // import { useRouter } from "next/router";
 // import favIcon from "@/public/profile/mahipal.ico";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
+import { FaInstagram } from "react-icons/fa6";
+import { CgWebsite } from "react-icons/cg";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const inter = Quicksand({ weight: "400", subsets: ["latin"] });
 
@@ -155,12 +161,12 @@ export default function RootLayout({
                     name="description"
                     content="Experienced web developer with a passion for building responsive and user-friendly websites. This contain my resume details. Treat this as resume. View my portfolio and contact information."
                 />
-                <link
+                {/* <link
                     rel="icon"
                     type="image/x-icon"
                     sizes="94x94"
-                    href="/public/profile/mahipal.ico"
-                />
+                    href="/public/profile/favicon.ico"
+                /> */}
                 {/* <link
                     rel="icon"
                     type="image/x-icon"
@@ -331,14 +337,73 @@ export default function RootLayout({
                             </primaryContext.Provider>
                         </div>
                         <footer
-                            className={`w-full h-20 flex justify-between items-center border-t border-spacing-1 ${
+                            className={`w-full p-5 flex flex-wrap justify-between items-center border-t border-spacing-1 ${
                                 theme === "light"
                                     ? "border-light-border"
                                     : "border-dark-border"
                             }`}
                         >
-                            <div></div>
-                            <div className="text-xs m-5 font-extralight opacity-75">
+                            <div className="w-full md:w-1/2 my-2 flex justify-center md:justify-start items-center">
+                                <ul className="flex justify-start items-center my-2">
+                                    <li className="m-4">
+                                        <Link
+                                            href={"https://github.com/Mahi0027"}
+                                            target="_blank"
+                                        >
+                                            <FaGithub size={20} />
+                                        </Link>
+                                    </li>
+                                    <li className="m-4">
+                                        <Link
+                                            href={
+                                                "https://www.linkedin.com/in/mahipal-singh-rathore-357212146/"
+                                            }
+                                            target="_blank"
+                                        >
+                                            <FaLinkedin size={20} />
+                                        </Link>
+                                    </li>
+                                    <li className="m-4">
+                                        <Link
+                                            href={"mahipal.s.singh27@gmail.com"}
+                                            target="_blank"
+                                        >
+                                            <BiLogoGmail size={20} />
+                                        </Link>
+                                    </li>
+                                    <li className="m-4">
+                                        <Link
+                                            href={
+                                                "https://mahipalinfo.vercel.app/"
+                                            }
+                                            target="_blank"
+                                        >
+                                            <CgWebsite size={20} />
+                                        </Link>
+                                    </li>
+                                    <li className="m-4">
+                                        <Link
+                                            href={
+                                                "https://twitter.com/MahiSin07351356"
+                                            }
+                                            target="_blank"
+                                        >
+                                            <FaXTwitter size={20} />
+                                        </Link>
+                                    </li>
+                                    <li className="m-4">
+                                        <Link
+                                            href={
+                                                "https://www.instagram.com/mahirathore27/"
+                                            }
+                                            target="_blank"
+                                        >
+                                            <FaInstagram size={20} />
+                                        </Link>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="w-full md:w-1/2 flex justify-end md:justify-center items-center text-xs font-extralight opacity-75 my-2">
                                 © 2024 Mahipal Singh.{" "}
                                 <span className="font-bold">
                                     100% made by Mahipal Singh

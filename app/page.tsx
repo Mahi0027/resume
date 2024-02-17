@@ -7,11 +7,12 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 import { FaInstagram } from "react-icons/fa6";
 import { CgWebsite } from "react-icons/cg";
+import { FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
-import companyLogo1 from "@/public/images/company_logo/1.svg";
-import companyLogo2 from "@/public/images/company_logo/2.svg";
-import companyLogo3 from "@/public/images/company_logo/3.svg";
-import companyLogo4 from "@/public/images/company_logo/4.svg";
+import rocketLearning from "@/public/images/company_logo/rocket_learning_org_logo.jpeg";
+import skilrock from "@/public/images/company_logo/skilrock_logo.jpeg";
+import ascentCyberSolution from "@/public/images/company_logo/ascentcybersolutions_logo.jpeg";
+import cDac from "@/public/images/company_logo/cdac_org_logo.jpeg";
 import { primaryContext } from "@/src/context";
 import { IoMailOutline } from "react-icons/io5";
 import Button from "@/src/components/button";
@@ -25,45 +26,90 @@ export default function Home() {
         <>
             <div className="mt-96 mx-5">
                 <div className="text-6xl font-extrabold text-action-text">
-                    Senior Software Engineer
+                    Senior Frontend Software Engineer
                 </div>
                 <div className="mx-auto text-lg text-action-text my-8">
-                    I am a senior software engineer with 4.5 years of experience
-                    in the Ed-tech and Fin-tech industries. I have a strong
-                    background as a developer and have a proven track record of
-                    delivering high-quality, efficient, and reliable code. I
-                    have developed an ed-tech product with CTO from scratch and
-                    now that product helps more than a million children daily. l
-                    am a team player and have excellent communication skills,
-                    making me an asset to any development team. I am excited to
-                    continue to grow my skills and take on new challenges as a
-                    senior software engineer.
+                    <p>
+                        A results-driven and detail-oriented Senior Frontend
+                        Software Engineer with more then 4.5 years of experience
+                        in the Ed-tech and Fin-tech industries. I have a strong
+                        background as a developer and have a proven track record
+                        of delivering high-quality, efficient, and reliable
+                        code.{" "}
+                        <i className="text-hover">
+                            I have developed an ed-tech product with CTO from
+                            scratch and now that product helps more than two
+                            million children and send more than a lakh of
+                            content(text + multimedia) to whatsapp group daily
+                            to provide education.
+                        </i>
+                    </p>
+                    <p>
+                        Proficient in leveraging React.js and Next.js framework
+                        to create highly interactive and dynamic frontend
+                        solutions, coupled with expertise in PHP frameworks
+                        including CodeIgniter, CakePHP, and Laravel for
+                        efficient backend development.
+                    </p>
+                    <p>
+                        l am a team player and have excellent communication
+                        skills, making me an asset to any development team. I am
+                        excited to continue to grow my skills and take on new
+                        challenges as a senior software engineer.
+                    </p>
                 </div>
                 <div className="w-1/2 my-2">
                     <ul className="flex justify-start items-center">
                         <li className="m-4">
-                            <Link href={"#"}>
+                            <Link
+                                href={"https://github.com/Mahi0027"}
+                                target="_blank"
+                            >
                                 <FaGithub size={20} />
                             </Link>
                         </li>
                         <li className="m-4">
-                            <Link href={"#"}>
+                            <Link
+                                href={
+                                    "https://www.linkedin.com/in/mahipal-singh-rathore-357212146/"
+                                }
+                                target="_blank"
+                            >
                                 <FaLinkedin size={20} />
                             </Link>
                         </li>
                         <li className="m-4">
-                            <Link href={"#"}>
+                            <Link
+                                href={"mahipal.s.singh27@gmail.com"}
+                                target="_blank"
+                            >
                                 <BiLogoGmail size={20} />
                             </Link>
                         </li>
                         <li className="m-4">
-                            <Link href={"#"}>
-                                <FaInstagram size={20} />
+                            <Link
+                                href={"https://mahipalinfo.vercel.app/"}
+                                target="_blank"
+                            >
+                                <CgWebsite size={20} />
                             </Link>
                         </li>
                         <li className="m-4">
-                            <Link href={"#"}>
-                                <CgWebsite size={20} />
+                            <Link
+                                href={"https://twitter.com/MahiSin07351356"}
+                                target="_blank"
+                            >
+                                <FaXTwitter size={20} />
+                            </Link>
+                        </li>
+                        <li className="m-4">
+                            <Link
+                                href={
+                                    "https://www.instagram.com/mahirathore27/"
+                                }
+                                target="_blank"
+                            >
+                                <FaInstagram size={20} />
                             </Link>
                         </li>
                     </ul>
@@ -137,135 +183,196 @@ export default function Home() {
                             </div>
                             <div className="text-lg font-thin mb-6">
                                 <div className="flex justify-between items-center mb-3">
-                                    <div
-                                        className={`flex justify-start items-center`}
+                                    <Link
+                                        href={"https://www.rocketlearning.org/"}
+                                        target="_blank"
                                     >
                                         <div
-                                            className={`border border-spacing-0.5 rounded-full p-1 ${
-                                                theme === "light"
-                                                    ? "border-light-border"
-                                                    : "border-dark-border"
-                                            }`}
+                                            className={`flex justify-start items-center`}
                                         >
-                                            <Image
-                                                className={`object-cover rounded-full`}
-                                                loading="lazy"
-                                                src={companyLogo1}
-                                                width={30}
-                                                height={30}
-                                                alt={"company logo"}
-                                            />
-                                        </div>
-                                        <div className="ml-2">
-                                            <div className="text-base font-bold">
-                                                Planetaria
+                                            <div
+                                                className={`border border-spacing-0.5 rounded-full p-1 ${
+                                                    theme === "light"
+                                                        ? "border-light-border"
+                                                        : "border-dark-border"
+                                                }`}
+                                            >
+                                                <Image
+                                                    className={`object-cover rounded-full`}
+                                                    loading="lazy"
+                                                    src={rocketLearning}
+                                                    width={30}
+                                                    height={30}
+                                                    alt={"company logo"}
+                                                />
                                             </div>
-                                            <div className="opacity-70 text-sm">
-                                                CEO
+                                            <div className="ml-2">
+                                                <div className="text-base font-bold">
+                                                    Rocket Learning
+                                                </div>
+                                                <div className="opacity-70 text-sm">
+                                                    Senior Software Engineer
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </Link>
+
                                     <div className="text-xs font-extralight">
-                                        2019 — Present
+                                        04/2022 — Present
                                     </div>
                                 </div>
                                 <div className="flex justify-between items-center  mb-3">
-                                    <div
-                                        className={`flex justify-start items-center`}
+                                    <Link
+                                        href={"https://www.rocketlearning.org/"}
+                                        target="_blank"
                                     >
                                         <div
-                                            className={`border border-spacing-0.5 rounded-full p-1 ${
-                                                theme === "light"
-                                                    ? "border-light-border"
-                                                    : "border-dark-border"
-                                            }`}
+                                            className={`flex justify-start items-center`}
                                         >
-                                            <Image
-                                                className={`object-cover rounded-full`}
-                                                loading="lazy"
-                                                src={companyLogo2}
-                                                width={30}
-                                                height={30}
-                                                alt={"company logo"}
-                                            />
-                                        </div>
-                                        <div className="ml-2">
-                                            <div className="text-base font-bold">
-                                                Airbnb
+                                            <div
+                                                className={`border border-spacing-0.5 rounded-full p-1 ${
+                                                    theme === "light"
+                                                        ? "border-light-border"
+                                                        : "border-dark-border"
+                                                }`}
+                                            >
+                                                <Image
+                                                    className={`object-cover rounded-full`}
+                                                    loading="lazy"
+                                                    src={rocketLearning}
+                                                    width={30}
+                                                    height={30}
+                                                    alt={"company logo"}
+                                                />
                                             </div>
-                                            <div className="opacity-70 text-sm">
-                                                Product Designer
+                                            <div className="ml-2">
+                                                <div className="text-base font-bold">
+                                                    Rocket Learning
+                                                </div>
+                                                <div className="opacity-70 text-sm">
+                                                    Software Engineer
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                     <div className="text-xs font-extralight">
-                                        2014 — 2019
+                                        07/2020 — 03/2022
                                     </div>
                                 </div>
                                 <div className="flex justify-between items-center  mb-3">
-                                    <div
-                                        className={`flex justify-start items-center`}
+                                    <Link
+                                        href={"https://www.skilrock.com/"}
+                                        target="_blank"
                                     >
                                         <div
-                                            className={`border border-spacing-0.5 rounded-full p-1 ${
-                                                theme === "light"
-                                                    ? "border-light-border"
-                                                    : "border-dark-border"
-                                            }`}
+                                            className={`flex justify-start items-center`}
                                         >
-                                            <Image
-                                                className={`object-cover rounded-full`}
-                                                loading="lazy"
-                                                src={companyLogo3}
-                                                width={30}
-                                                height={30}
-                                                alt={"company logo"}
-                                            />
-                                        </div>
-                                        <div className="ml-2">
-                                            <div className="text-base font-bold">
-                                                Facebook
+                                            <div
+                                                className={`border border-spacing-0.5 rounded-full p-1 ${
+                                                    theme === "light"
+                                                        ? "border-light-border"
+                                                        : "border-dark-border"
+                                                }`}
+                                            >
+                                                <Image
+                                                    className={`object-cover rounded-full`}
+                                                    loading="lazy"
+                                                    src={skilrock}
+                                                    width={30}
+                                                    height={30}
+                                                    alt={"company logo"}
+                                                />
                                             </div>
-                                            <div className="opacity-70 text-sm">
-                                                iOS Software Engineer
+                                            <div className="ml-2">
+                                                <div className="text-base font-bold">
+                                                    Skilrock Technology
+                                                </div>
+                                                <div className="opacity-70 text-sm">
+                                                    Software Engineer Trainee
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                     <div className="text-xs font-extralight">
-                                        2011 — 2014
+                                        07/2019 — 05/2020
                                     </div>
                                 </div>
                                 <div className="flex justify-between items-center  mb-3">
-                                    <div
-                                        className={`flex justify-start items-center`}
+                                    <Link
+                                        href={
+                                            "https://www.ascentcybersolutions.com/"
+                                        }
+                                        target="_blank"
                                     >
                                         <div
-                                            className={`border border-spacing-0.5 rounded-full p-1 ${
-                                                theme === "light"
-                                                    ? "border-light-border"
-                                                    : "border-dark-border"
-                                            }`}
+                                            className={`flex justify-start items-center`}
                                         >
-                                            <Image
-                                                className={`object-cover rounded-full`}
-                                                loading="lazy"
-                                                src={companyLogo4}
-                                                width={30}
-                                                height={30}
-                                                alt={"company logo"}
-                                            />
-                                        </div>
-                                        <div className="ml-2">
-                                            <div className="text-base font-bold">
-                                                Starbucks
+                                            <div
+                                                className={`border border-spacing-0.5 rounded-full p-1 ${
+                                                    theme === "light"
+                                                        ? "border-light-border"
+                                                        : "border-dark-border"
+                                                }`}
+                                            >
+                                                <Image
+                                                    className={`object-cover rounded-full`}
+                                                    loading="lazy"
+                                                    src={ascentCyberSolution}
+                                                    width={30}
+                                                    height={30}
+                                                    alt={"company logo"}
+                                                />
                                             </div>
-                                            <div className="opacity-70 text-sm">
-                                                Shift Supervisor
+                                            <div className="ml-2">
+                                                <div className="text-base font-bold">
+                                                    Ascent Cyber Solution
+                                                </div>
+                                                <div className="opacity-70 text-sm">
+                                                    PHP Developer
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </Link>
                                     <div className="text-xs font-extralight">
-                                        2008 — 2011
+                                        06/2018 — 07/2018
+                                    </div>
+                                </div>
+                                <div className="flex justify-between items-center  mb-3">
+                                    <Link
+                                        href={"https://www.netcomedu.in/"}
+                                        target="_blank"
+                                    >
+                                        <div
+                                            className={`flex justify-start items-center`}
+                                        >
+                                            <div
+                                                className={`border border-spacing-0.5 rounded-full p-1 ${
+                                                    theme === "light"
+                                                        ? "border-light-border"
+                                                        : "border-dark-border"
+                                                }`}
+                                            >
+                                                <Image
+                                                    className={`object-cover rounded-full`}
+                                                    loading="lazy"
+                                                    src={cDac}
+                                                    width={30}
+                                                    height={30}
+                                                    alt={"company logo"}
+                                                />
+                                            </div>
+                                            <div className="ml-2">
+                                                <div className="text-base font-bold">
+                                                    C-DAC
+                                                </div>
+                                                <div className="opacity-70 text-sm">
+                                                    Trainee
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </Link>
+                                    <div className="text-xs font-extralight">
+                                        06/2017 — 07/2017
                                     </div>
                                 </div>
                             </div>

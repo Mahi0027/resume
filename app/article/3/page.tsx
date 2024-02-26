@@ -3,7 +3,7 @@ import { primaryContext } from "@/src/context";
 import Image from "next/image";
 import React, { useContext } from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
-import articleImage from "@/public/images/articles/1.webp";
+import articleImage from "@/public/images/articles/certificate/cert.jpeg";
 import Link from "next/link";
 
 const Article3 = () => {
@@ -22,15 +22,21 @@ const Article3 = () => {
                 </div>
             </Link>
             <div className="my-20 mx-2 sm:mx-4 md:mx-8 lg:mx-10">
-                <div className="opacity-50 my-5">| September 5, 2022</div>
+                <div className="opacity-50 my-5">| August 12, 2023</div>
                 <div className="text-4xl font-extrabold my-14 flex justify-start leading-relaxed">
-                    Crafting a design system for a multiplanetary future
+                    Empowering Education: Custom Certificate Generation and
+                    WhatsApp Group Distribution
                 </div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Most companies try to stay ahead of the curve when it comes
-                    to visual design, but for Planetaria we needed to create a
-                    brand that would still inspire us 100 years from now when
-                    humanity has spread across our entire solar system.
+                    In the realm of education, recognition plays a pivotal role
+                    in motivating learners and celebrating their achievements.
+                    Custom Certificates Generation emerges as a transformative
+                    feature, enabling the effortless creation and dissemination
+                    of personalized certificates to WhatsApp groups. This
+                    innovative tool harnesses the power of certificate images
+                    and data from Excel sheets to generate thousands of unique
+                    certificates with just a single click, catering to diverse
+                    recipients with individualized details.
                 </div>
                 <Image
                     className={`object-cover rounded-lg`}
@@ -39,67 +45,64 @@ const Article3 = () => {
                     alt={"article"}
                 />
                 <div className="text-sm font-extralight my-5 leading-8">
-                    I knew that to get it right I was going to have to replicate
-                    the viewing conditions of someone from the future, so I
-                    grabbed my space helmet from the closet, created a new Figma
-                    document, and got to work.
+                    At its core, Custom Certificate Generation is designed to
+                    streamline the process of recognizing achievements,
+                    particularly in educational settings. Whether it&apos;s
+                    acknowledging academic excellence, participation in
+                    extracurricular activities, or special accomplishments, this
+                    feature offers a scalable solution to meet the demands of
+                    large-scale certificate distribution.
                 </div>
-                <div className="text-lg font-bold my-5">Sermone fata</div>
+                <div className="text-lg font-bold my-5">Working Process</div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Lorem markdownum, bracchia in redibam! Terque unda puppi
-                    nec, linguae posterior in utraque respicere candidus
-                    Mimasque formae; quae conantem cervice. Parcite variatus,
-                    redolentia adeunt. Tyrioque dies, naufraga sua adit partibus
-                    celanda torquere temptata, erit maneat et ramos, iam ait
-                    dominari potitus! Tibi litora matremque fumantia condi
-                    radicibus opusque.
+                    One of the key applications of this feature is evident in
+                    Rocket Learning, where it serves as a cornerstone in the
+                    distribution of certificates to thousands of recipients on a
+                    weekly basis. By leveraging certificate images and data
+                    stored in Excel sheets, Rocket Learning can seamlessly
+                    generate certificates tailored to each recipient&apos;s
+                    profile, including their name, achievements, and even
+                    profile images. This personalized touch not only enhances
+                    the value of the certificates but also fosters a sense of
+                    pride and accomplishment among the recipients and their
+                    families.
                 </div>
+                <div className="text-lg font-bold my-5">Journey</div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Deus feram verumque, fecit, ira tamen, terras per alienae
-                    victum. Mutantur levitate quas ubi arcum ripas oculos abest.
-                    Adest commissaque victae in gemitus nectareis ire diva
-                    dotibus ora, et findi huic invenit; fatis? Fractaque dare
-                    superinposita nimiumque simulatoremque sanguine, at voce
-                    aestibus diu! Quid veterum hausit tu nil utinam paternos
-                    ima, commentaque.
-                </div>
-                <div
-                    className={`p-5 text-sm rounded-lg border-spacing-1 my-5 leading-8 ${
-                        theme === "light"
-                            ? "bg-dark-action border-dark-border text-dark-text"
-                            : "bg-light-action border-light-border text-light-text"
-                    }`}
-                >
-                    Deus feram verumque, fecit, ira tamen, terras per alienae
-                    victum. Mutantur levitate quas ubi arcum ripas oculos abest.
-                    Adest commissaque victae in gemitus nectareis ire diva
-                    dotibus ora, et findi huic invenit; fatis? Fractaque dare
-                    superinposita nimiumque simulatoremque sanguine, at voce
-                    aestibus diu! Quid veterum hausit tu nil utinam paternos
-                    ima, commentaque.
-                </div>
-                <div className="text-lg font-bold my-5">
-                    Lethaei Pindumve me quae dinumerat Pavor
+                    The complexity of this feature lies in its ability to
+                    dynamically generate certificates with varying content and
+                    layouts. Utilizing a canvas-based approach, the system
+                    overlays text, emojis, and images onto the certificate
+                    image, allowing for limitless customization options. Before
+                    all, at time of excel sheet update, we scan excel
+                    sheet&apos;s each column & row and check all the required
+                    condition for generate certificate. From adjusting the
+                    orientation of text and images to incorporating multiple
+                    elements at different positions, the flexibility offered by
+                    Custom Certificate Generation ensures that each certificate
+                    is unique and visually appealing.
                 </div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Idem se saxa fata pollentibus geminos; quos pedibus. Est
-                    urnis Herses omnes nec divite: et ille illa furit sim verbis
-                    Cyllenius.
-                    <ol className="ml-10" style={{ listStyleType: "decimal" }}>
-                        <li>Captus inpleverunt collo</li>
-                        <li>Nec nam placebant</li>
-                        <li>Siquos vulgus</li>
-                        <li>Dictis carissime fugae</li>
-                        <li>A tacitos nulla viginti</li>
-                    </ol>
-                    Ungues fistula annoso, ille addit linoque motatque uberior
-                    verso rubuerunt confine desuetaque. Sanguine anteit
-                    emerguntque expugnacior est pennas iniqui ecce haeret genus:
-                    peiora imagine fossas Cephisos formosa! Refugitque amata
-                    refelli supplex. Summa brevis vetuere tenebas, hostes
-                    vetantis, suppressit, arreptum regna. Postquam conpescit
-                    iuvenis habet corpus, et erratica, perdere, tot mota ars
-                    talis.
+                    The development of this feature was no small feat, requiring
+                    over three months of dedicated effort to refine its
+                    functionality and usability. The intricacies of integrating
+                    certificate images, data processing from Excel sheets, and
+                    seamless WhatsApp group distribution posed significant
+                    technical challenges. However, the end result justified the
+                    investment, with Rocket Learning witnessing a remarkable
+                    increase of over 26-27% in activation levels following the
+                    implementation of this feature.
+                </div>
+                <div className="text-sm font-extralight my-5 leading-8">
+                    In conclusion, Custom Certificate Generation represents a
+                    paradigm shift in how educational achievements are
+                    recognized and celebrated. By combining automation,
+                    personalization, and seamless distribution via WhatsApp
+                    groups, this feature empowers educators to inspire and
+                    motivate learners on a massive scale. As technology
+                    continues to reshape the landscape of education, tools like
+                    Custom Certificate Generation pave the way for a future
+                    where recognition knows no bounds.
                 </div>
             </div>
         </div>

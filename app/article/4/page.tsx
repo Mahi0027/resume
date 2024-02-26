@@ -3,7 +3,7 @@ import { primaryContext } from "@/src/context";
 import Image from "next/image";
 import React, { useContext } from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
-import articleImage from "@/public/images/articles/1.webp";
+import articleImage from "@/public/images/articles/dashboard/dashboard.png";
 import Link from "next/link";
 
 const Article4 = () => {
@@ -22,15 +22,19 @@ const Article4 = () => {
                 </div>
             </Link>
             <div className="my-20 mx-2 sm:mx-4 md:mx-8 lg:mx-10">
-                <div className="opacity-50 my-5">| September 5, 2022</div>
+                <div className="opacity-50 my-5">| March 18, 2022</div>
                 <div className="text-4xl font-extrabold my-14 flex justify-start leading-relaxed">
-                    Crafting a design system for a multiplanetary future
+                    Empowering Data Analysis with Dynamic Dashboards: A
+                    Game-Changer for Rocket Learning Platform Users
                 </div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Most companies try to stay ahead of the curve when it comes
-                    to visual design, but for Planetaria we needed to create a
-                    brand that would still inspire us 100 years from now when
-                    humanity has spread across our entire solar system.
+                    In today&apos;s data-driven world, access to real-time data
+                    analysis and visualization is paramount for informed
+                    decision-making. For users of the Rocket Learning Platform,
+                    this necessity is met through the innovative Dynamic
+                    Dashboard feature. Designed to provide users with
+                    customizable graphs and analytics, this feature
+                    revolutionizes the way data is interpreted and utilized.
                 </div>
                 <Image
                     className={`object-cover rounded-lg`}
@@ -39,30 +43,49 @@ const Article4 = () => {
                     alt={"article"}
                 />
                 <div className="text-sm font-extralight my-5 leading-8">
-                    I knew that to get it right I was going to have to replicate
-                    the viewing conditions of someone from the future, so I
-                    grabbed my space helmet from the closet, created a new Figma
-                    document, and got to work.
-                </div>
-                <div className="text-lg font-bold my-5">Sermone fata</div>
-                <div className="text-sm font-extralight my-5 leading-8">
-                    Lorem markdownum, bracchia in redibam! Terque unda puppi
-                    nec, linguae posterior in utraque respicere candidus
-                    Mimasque formae; quae conantem cervice. Parcite variatus,
-                    redolentia adeunt. Tyrioque dies, naufraga sua adit partibus
-                    celanda torquere temptata, erit maneat et ramos, iam ait
-                    dominari potitus! Tibi litora matremque fumantia condi
-                    radicibus opusque.
+                    The primary purpose of the Dynamic Dashboard feature is to
+                    equip Rocket Learning Platform users with the tools they
+                    need to gain valuable insights into their data in real-time.
+                    By allowing users to generate their own dashboards and
+                    designate a default view for their home screen, the feature
+                    ensures that users have instant access to the most pertinent
+                    data analysis for their needs.
                 </div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Deus feram verumque, fecit, ira tamen, terras per alienae
-                    victum. Mutantur levitate quas ubi arcum ripas oculos abest.
-                    Adest commissaque victae in gemitus nectareis ire diva
-                    dotibus ora, et findi huic invenit; fatis? Fractaque dare
-                    superinposita nimiumque simulatoremque sanguine, at voce
-                    aestibus diu! Quid veterum hausit tu nil utinam paternos
-                    ima, commentaque.
+                    One of the standout aspects of the Dynamic Dashboard feature
+                    is its high level of customization. Users have the freedom
+                    to create their own graphs by selecting preset coordinates
+                    and combinations, tailoring their dashboards to their
+                    specific requirements. Moreover, users can create multiple
+                    dashboards, each containing multiple graphs, further
+                    enhancing the depth of analysis possible on the platform.
                 </div>
+                <div className="text-sm font-extralight my-5 leading-8">
+                    Crucially, the feature also enables users to add multiple
+                    filters based on their chosen coordinates, providing an
+                    additional layer of refinement to their data analysis. This
+                    level of flexibility ensures that users can delve deep into
+                    their data and extract meaningful insights with ease.
+                </div>
+                <div className="text-sm font-extralight my-5 leading-8">
+                    The user experience is further enhanced by the intuitive
+                    interface, which allows users to effortlessly drag and drop
+                    dashboards and adjust their positions according to
+                    preference. This seamless interaction enables users to
+                    organize their data in a manner that best suits their
+                    workflow, enhancing productivity and efficiency.
+                </div>
+                <div className="text-lg font-bold my-5">Journey</div>
+                <div className="text-sm font-extralight my-5 leading-8">
+                    Behind the scenes, the development of the Dynamic Dashboard
+                    feature was a complex and meticulous process, requiring over
+                    1.5 months of ideation and implementation. Leveraging the
+                    power of Plotly (a D3 library), the feature delivers
+                    visually stunning and interactive graphs that rival those
+                    found in leading data visualization platforms such as Google
+                    Console Developer Dashboard and PowerBI.
+                </div>
+                <div className="text-lg font-bold my-5">Key Point</div>
                 <div
                     className={`p-5 text-sm rounded-lg border-spacing-1 my-5 leading-8 ${
                         theme === "light"
@@ -70,36 +93,24 @@ const Article4 = () => {
                             : "bg-light-action border-light-border text-light-text"
                     }`}
                 >
-                    Deus feram verumque, fecit, ira tamen, terras per alienae
-                    victum. Mutantur levitate quas ubi arcum ripas oculos abest.
-                    Adest commissaque victae in gemitus nectareis ire diva
-                    dotibus ora, et findi huic invenit; fatis? Fractaque dare
-                    superinposita nimiumque simulatoremque sanguine, at voce
-                    aestibus diu! Quid veterum hausit tu nil utinam paternos
-                    ima, commentaque.
-                </div>
-                <div className="text-lg font-bold my-5">
-                    Lethaei Pindumve me quae dinumerat Pavor
+                    The significance of the Dynamic Dashboard feature is
+                    underscored by its popularity among users, particularly
+                    government officers. With over 90% of government officers
+                    utilizing the platform to track the progress of children
+                    within their jurisdictions, the feature has become an
+                    indispensable tool for data-driven decision-making in
+                    education policy and administration.
                 </div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Idem se saxa fata pollentibus geminos; quos pedibus. Est
-                    urnis Herses omnes nec divite: et ille illa furit sim verbis
-                    Cyllenius.
-                    <ol className="ml-10" style={{ listStyleType: "decimal" }}>
-                        <li>Captus inpleverunt collo</li>
-                        <li>Nec nam placebant</li>
-                        <li>Siquos vulgus</li>
-                        <li>Dictis carissime fugae</li>
-                        <li>A tacitos nulla viginti</li>
-                    </ol>
-                    Ungues fistula annoso, ille addit linoque motatque uberior
-                    verso rubuerunt confine desuetaque. Sanguine anteit
-                    emerguntque expugnacior est pennas iniqui ecce haeret genus:
-                    peiora imagine fossas Cephisos formosa! Refugitque amata
-                    refelli supplex. Summa brevis vetuere tenebas, hostes
-                    vetantis, suppressit, arreptum regna. Postquam conpescit
-                    iuvenis habet corpus, et erratica, perdere, tot mota ars
-                    talis.
+                    In conclusion, the Dynamic Dashboard feature represents a
+                    significant milestone in data analysis and visualization for
+                    users of the Rocket Learning Platform. Its unparalleled
+                    level of customization, real-time capabilities, and
+                    intuitive interface make it a game-changer for data-driven
+                    decision-making in education and beyond. As one of the most
+                    satisfying products developed, it stands as a testament to
+                    the commitment to excellence and innovation within the
+                    Rocket Learning Platform ecosystem.
                 </div>
             </div>
         </div>

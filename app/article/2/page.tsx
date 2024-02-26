@@ -3,7 +3,8 @@ import { primaryContext } from "@/src/context";
 import Image from "next/image";
 import React, { useContext } from "react";
 import { IoIosArrowRoundBack } from "react-icons/io";
-import articleImage from "@/public/images/articles/1.webp";
+import articleImageLight from "@/public/images/articles/clock/light.png";
+import articleImageDark from "@/public/images/articles/clock/dark.png";
 import Link from "next/link";
 
 const Article2 = () => {
@@ -22,47 +23,59 @@ const Article2 = () => {
                 </div>
             </Link>
             <div className="my-20 mx-2 sm:mx-4 md:mx-8 lg:mx-10">
-                <div className="opacity-50 my-5">| September 5, 2022</div>
+                <div className="opacity-50 my-5">| September 21, 2023</div>
                 <div className="text-4xl font-extrabold my-14 flex justify-start leading-relaxed">
-                    Crafting a design system for a multiplanetary future
+                    Introducing Clock PWA: Your Ultimate Timekeeping Companion
                 </div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Most companies try to stay ahead of the curve when it comes
-                    to visual design, but for Planetaria we needed to create a
-                    brand that would still inspire us 100 years from now when
-                    humanity has spread across our entire solar system.
+                    Clock PWA stands as a testament to meticulous development,
+                    crafted with cutting-edge technologies such as ReactJS,
+                    Redux, and Material UI for frontend intricacies, and fueled
+                    by indexedDB for seamless database operations. This
+                    innovative web application, akin to the renowned Google
+                    Clock app, offers a sophisticated array of features designed
+                    to redefine timekeeping in the digital realm.
                 </div>
                 <Image
                     className={`object-cover rounded-lg`}
                     loading="lazy"
-                    src={articleImage}
+                    src={
+                        theme === "light" ? articleImageLight : articleImageDark
+                    }
                     alt={"article"}
                 />
                 <div className="text-sm font-extralight my-5 leading-8">
-                    I knew that to get it right I was going to have to replicate
-                    the viewing conditions of someone from the future, so I
-                    grabbed my space helmet from the closet, created a new Figma
-                    document, and got to work.
+                    At its core, Clock PWA seamlessly integrates diverse
+                    functionalities catering to a wide range of user needs. From
+                    traditional analog and sleek digital clock designs to
+                    convenient world time tracking, multiple alarms, timers, and
+                    a versatile stopwatch feature, Clock PWA offers a holistic
+                    timekeeping experience. This amalgamation of features
+                    ensures that users can rely on a single platform for all
+                    their time management requirements.
                 </div>
-                <div className="text-lg font-bold my-5">Sermone fata</div>
+                <div className="text-lg font-bold my-5">Journey</div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Lorem markdownum, bracchia in redibam! Terque unda puppi
-                    nec, linguae posterior in utraque respicere candidus
-                    Mimasque formae; quae conantem cervice. Parcite variatus,
-                    redolentia adeunt. Tyrioque dies, naufraga sua adit partibus
-                    celanda torquere temptata, erit maneat et ramos, iam ait
-                    dominari potitus! Tibi litora matremque fumantia condi
-                    radicibus opusque.
+                    The journey of Clock PWA spanned approximately 70-75 days of
+                    dedicated development effort. Inspired by the ambition to
+                    create a timekeeping tool worthy of user&apos;s trust, the
+                    development process was both challenging and rewarding.
+                    Despite facing various hurdles, I tried to persevered,
+                    driven by the vision of delivering a polished product that
+                    exceeds expectations.
                 </div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Deus feram verumque, fecit, ira tamen, terras per alienae
-                    victum. Mutantur levitate quas ubi arcum ripas oculos abest.
-                    Adest commissaque victae in gemitus nectareis ire diva
-                    dotibus ora, et findi huic invenit; fatis? Fractaque dare
-                    superinposita nimiumque simulatoremque sanguine, at voce
-                    aestibus diu! Quid veterum hausit tu nil utinam paternos
-                    ima, commentaque.
+                    One of the most formidable challenges encountered during
+                    development was efficient event handling. The ability to
+                    create and manage multiple alarms and timers simultaneously
+                    demanded intricate logic and meticulous attention to detail.
+                    Every second, the application&apos;s state had to be updated
+                    seamlessly, ensuring accurate timekeeping and timely event
+                    triggers. Overcoming this challenge required significant
+                    time and energy, I dedicated to refining the event handling
+                    mechanisms to perfection.
                 </div>
+                <div className="text-lg font-bold my-5">Future Plan</div>
                 <div
                     className={`p-5 text-sm rounded-lg border-spacing-1 my-5 leading-8 ${
                         theme === "light"
@@ -70,36 +83,24 @@ const Article2 = () => {
                             : "bg-light-action border-light-border text-light-text"
                     }`}
                 >
-                    Deus feram verumque, fecit, ira tamen, terras per alienae
-                    victum. Mutantur levitate quas ubi arcum ripas oculos abest.
-                    Adest commissaque victae in gemitus nectareis ire diva
-                    dotibus ora, et findi huic invenit; fatis? Fractaque dare
-                    superinposita nimiumque simulatoremque sanguine, at voce
-                    aestibus diu! Quid veterum hausit tu nil utinam paternos
-                    ima, commentaque.
-                </div>
-                <div className="text-lg font-bold my-5">
-                    Lethaei Pindumve me quae dinumerat Pavor
+                    Despite the complexities, Clock PWA has now reached its
+                    first milestone with the release of version 1.0.0. However,
+                    the journey does not end here. I remains committed to
+                    enhancing the application&apos;s robustness and expanding
+                    its feature set. Future updates will introduce
+                    functionalities such as an always-on display mode, support
+                    for leap time, task management capabilities, to-do lists,
+                    activity tracking, and much more.
                 </div>
                 <div className="text-sm font-extralight my-5 leading-8">
-                    Idem se saxa fata pollentibus geminos; quos pedibus. Est
-                    urnis Herses omnes nec divite: et ille illa furit sim verbis
-                    Cyllenius.
-                    <ol className="ml-10" style={{ listStyleType: "decimal" }}>
-                        <li>Captus inpleverunt collo</li>
-                        <li>Nec nam placebant</li>
-                        <li>Siquos vulgus</li>
-                        <li>Dictis carissime fugae</li>
-                        <li>A tacitos nulla viginti</li>
-                    </ol>
-                    Ungues fistula annoso, ille addit linoque motatque uberior
-                    verso rubuerunt confine desuetaque. Sanguine anteit
-                    emerguntque expugnacior est pennas iniqui ecce haeret genus:
-                    peiora imagine fossas Cephisos formosa! Refugitque amata
-                    refelli supplex. Summa brevis vetuere tenebas, hostes
-                    vetantis, suppressit, arreptum regna. Postquam conpescit
-                    iuvenis habet corpus, et erratica, perdere, tot mota ars
-                    talis.
+                    Clock PWA is not merely a timekeeping tool; it is a
+                    testament to innovation and dedication. With each update, it
+                    strives to redefine the boundaries of what a clock
+                    application can achieve, empowering users to manage their
+                    time more effectively and effortlessly. As Clock PWA
+                    continues to evolve, it is poised to become the go-to choice
+                    for individuals seeking a comprehensive and elegant solution
+                    for their timekeeping needs.
                 </div>
             </div>
         </div>

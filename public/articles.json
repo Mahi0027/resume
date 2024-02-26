@@ -1,32 +1,26 @@
 [
     {
         "id": 1,
-        "date": "September 5, 2023",
-        "heading": "Crafting a design system for a multiplanetary future",
-        "content": "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system."
+        "date": "December 15, 2023",
+        "heading": "Introducing Buddy Chat Web App: Redefining Communication with Simplicity and Security",
+        "content": "Buddy Chat web App is expertly crafted with ReactJS and Tailwind CSS for a sleek UI, complemented by Socket.IO for seamless messaging functionality. Utilizing localDB and MongoDB for database operations, it ensures simplicity, security, and reliability. A trusted platform for free, private communication, fostering effortless connections with friends and family."
     },
     {
         "id": 2,
-        "date": "September 5, 2023",
-        "heading": "Crafting a design system for a multiplanetary future",
-        "content": "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system."
+        "date": "September 21, 2023",
+        "heading": "Introducing Clock PWA: Your Ultimate Timekeeping Companion",
+        "content": "Clock PWA, meticulously developed with ReactJS, Redux, and Material UI for frontend intricacies, and powered by indexedDB for seamless database operations. Combining diverse functionalities including analog and digital clock designs, world time, multiple alarms, timers, and stopwatch features, it offers a comprehensive yet elegant timekeeping solution."
     },
     {
         "id": 3,
-        "date": "September 5, 2023",
-        "heading": "Crafting a design system for a multiplanetary future",
-        "content": "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system."
+        "date": "August 12, 2023",
+        "heading": "Empowering Education: Custom Certificate Generation and WhatsApp Group Distribution",
+        "content": "In the realm of education, recognition plays a pivotal role in motivating learners and celebrating their achievements. Custom Certificates Generation emerges as a transformative feature, enabling the effortless creation and dissemination of personalized certificates to WhatsApp groups. This innovative tool harnesses the power of certificate images and data from Excel sheets to generate thousands of unique certificates with just a single click, catering to diverse recipients with individualized details."
     },
     {
         "id": 4,
-        "date": "September 5, 2023",
-        "heading": "Crafting a design system for a multiplanetary future",
-        "content": "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system."
-    },
-    {
-        "id": 5,
-        "date": "September 5, 2023",
-        "heading": "Crafting a design system for a multiplanetary future",
-        "content": "Most companies try to stay ahead of the curve when it comes to visual design, but for Planetaria we needed to create a brand that would still inspire us 100 years from now when humanity has spread across our entire solar system."
+        "date": "March 18, 2022",
+        "heading": "Empowering Data Analysis with Dynamic Dashboards: A Game-Changer for Rocket Learning Platform Users",
+        "content": "In today's data-driven world, access to real-time data analysis and visualization is paramount for informed decision-making. For users of the Rocket Learning Platform, this necessity is met through the innovative Dynamic Dashboard feature. Designed to provide users with customizable graphs and analytics, this feature revolutionizes the way data is interpreted and utilized."
     }
 ]

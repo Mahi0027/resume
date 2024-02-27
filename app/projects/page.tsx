@@ -18,7 +18,7 @@ const Projects = () => {
     return (
         <div className="mt-36 mx-5 md:mx-8 lg:mx-10">
             <div className="text-4xl font-extrabold my-14 flex justify-start leading-relaxed">
-                Senior Front End Developer, Problem Solver, Education
+                Senior Front End Developer | Problem Solver | Education
             </div>
             <div className="text-sm font-extralight my-5 leading-8">
                 <p>

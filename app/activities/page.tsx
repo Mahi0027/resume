@@ -7,7 +7,7 @@ const Activities = () => {
     return (
         <div className="mt-36 mx-5 md:mx-8 lg:mx-10">
             <div className="text-4xl font-extrabold my-14 flex justify-start leading-relaxed">
-                Event Management | Team Builder | proactive | Sports Lover
+                Event Management | Team Builder | Proactive | Sports Lover
             </div>
             <div className="text-sm font-extralight my-5 leading-8">
                 <p>

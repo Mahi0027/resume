@@ -115,7 +115,13 @@ export default function Home() {
                     </ul>
                 </div>
                 <div className="flex flex-wrap mt-10 mb-24">
-                    <div className="show-scrollbar w-full max-h-[36rem] mb-5 md:mb-0  md:w-1/2 px-4 overflow-y-auto scrollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full">
+                    <div
+                        className={`show-scrollbar w-full max-h-[39rem] mb-5 md:mb-0  md:w-1/2 px-4 overflow-y-auto scrollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full border border-spacing-1 rounded-lg ${
+                            theme === "light"
+                                ? "border-light-border"
+                                : "border-dark-border"
+                        }`}
+                    >
                         {articles.map(
                             ({
                                 id,
@@ -169,7 +175,7 @@ export default function Home() {
                         )}
                     </div>
 
-                    <div className="w-full md:w-1/2 px-4">
+                    <div className="w-full md:w-1/2 md:px-4">
                         <div
                             className={`border border-spacing-1 rounded-lg p-4 mb-5 ${
                                 theme === "light"

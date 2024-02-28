@@ -202,7 +202,7 @@ export default function RootLayout({
                                 <Image
                                     loading="lazy"
                                     id="profileImage"
-                                    className={`initial-profile-size object-cover`}
+                                    className={`initial-profile-size object-cover w-full`}
                                     src={mahipalProfile}
                                     alt={"profile"}
                                 />

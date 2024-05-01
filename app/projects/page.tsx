@@ -279,10 +279,10 @@ const Projects = () => {
                         </div>
                         <div className="mb-5">
                             <div className="text-xs font-bold">
-                                Resume Website
+                                Self Info Website
                             </div>
                             <div className="text-xs/3 font-extralight my-2 leading-normal">
-                                The Resume Website, constructed with React.js
+                                The Self Info Website, constructed with React.js
                                 (Next.js) and Tailwind CSS, epitomizes modernity
                                 and responsiveness. It seamlessly adapts to
                                 various screen sizes, ensuring optimal user

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useContext } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import { FaInstagram } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { FaXTwitter } from "react-icons/fa6";
 import Image from "next/image";
@@ -96,20 +96,20 @@ export default function Home() {
                         </li>
                         <li className="m-4">
                             <Link
-                                href={"https://twitter.com/MahiSin07351356"}
+                                href={
+                                    "https://leetcode.com/u/mahipal001573985/"
+                                }
                                 target="_blank"
                             >
-                                <FaXTwitter size={20} />
+                                <SiLeetcode size={20} />
                             </Link>
                         </li>
                         <li className="m-4">
                             <Link
-                                href={
-                                    "https://www.instagram.com/mahirathore27/"
-                                }
+                                href={"https://twitter.com/MahiSin07351356"}
                                 target="_blank"
                             >
-                                <FaInstagram size={20} />
+                                <FaXTwitter size={20} />
                             </Link>
                         </li>
                     </ul>

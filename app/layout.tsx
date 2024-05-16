@@ -16,10 +16,9 @@ import { usePathname } from "next/navigation";
 // import favIcon from "@/public/profile/mahipal.ico";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
-import { FaInstagram } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { FaXTwitter } from "react-icons/fa6";
-
 
 const inter = Quicksand({ weight: "400", subsets: ["latin"] });
 
@@ -384,21 +383,21 @@ export default function RootLayout({
                                     <li className="m-4">
                                         <Link
                                             href={
-                                                "https://twitter.com/MahiSin07351356"
+                                                "https://leetcode.com/u/mahipal001573985/"
                                             }
                                             target="_blank"
                                         >
-                                            <FaXTwitter size={20} />
+                                            <SiLeetcode size={20} />
                                         </Link>
                                     </li>
                                     <li className="m-4">
                                         <Link
                                             href={
-                                                "https://www.instagram.com/mahirathore27/"
+                                                "https://twitter.com/MahiSin07351356"
                                             }
                                             target="_blank"
                                         >
-                                            <FaInstagram size={20} />
+                                            <FaXTwitter size={20} />
                                         </Link>
                                     </li>
                                 </ul>

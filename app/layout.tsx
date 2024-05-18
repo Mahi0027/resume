@@ -355,7 +355,7 @@ export default function RootLayout({
                                     <li className="m-4">
                                         <Link
                                             href={
-                                                "https://www.linkedin.com/in/mahipal-singh-rathore-357212146/"
+                                                "https://www.linkedin.com/in/mahipals/"
                                             }
                                             target="_blank"
                                         >

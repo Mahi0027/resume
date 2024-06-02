@@ -250,7 +250,7 @@ export default function RootLayout({
                                                 : ""
                                         }`}
                                     >
-                                        <Link href="about">About</Link>
+                                        <Link href="/about">About</Link>
                                     </li>
                                     {/* education, experience,contacts */}
                                     <li
@@ -260,7 +260,7 @@ export default function RootLayout({
                                                 : ""
                                         }`}
                                     >
-                                        <Link href="skills">Skills</Link>
+                                        <Link href="/skills">Skills</Link>
                                     </li>
                                     <li
                                         className={`hover:text-hover hover:cursor-pointer ${
@@ -269,7 +269,7 @@ export default function RootLayout({
                                                 : ""
                                         }`}
                                     >
-                                        <Link href="projects">Projects</Link>
+                                        <Link href="/projects">Projects</Link>
                                     </li>
                                     <li
                                         className={`hover:text-hover hover:cursor-pointer ${
@@ -278,7 +278,7 @@ export default function RootLayout({
                                                 : ""
                                         }`}
                                     >
-                                        <Link href="activities">
+                                        <Link href="/activities">
                                             Activities
                                         </Link>
                                     </li>
